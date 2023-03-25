@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+nav{
+    display: flex;
+}
+
+nav li{
+    display: inline-flex;
+    padding: 0 5px;
+}
+
+.about-me-container{
+    display: flex;
+}
+
+.about-me-text{
+    margin-right: 1rem;
+}
+
+.about-me-container img{
+    width: 18.5rem;
+}
+
+.project-title h3 {
+    display: inline;
+  }
+
+  details{
+    cursor: pointer;
+  }
