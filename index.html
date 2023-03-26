@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./resources/style.css">
+    <script src="https://kit.fontawesome.com/0244fa258d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -14,15 +15,15 @@
         </div>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>Contact</li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="about-me">
+        <section id="about-me">
             <div class="about-me-container">
                 <div class="about-me-text">
                     <h2>About Me:</h2>
@@ -33,7 +34,7 @@
                 <img src="./resources/images/Daniel.jpg" alt="A photo of Daniel Newsome">
             </div>
         </section>
-        <section class="projects">
+        <section id="projects">
             <h2>Projects:</h2>
             <details class="project">
                 <summary class="project-title">
@@ -50,15 +51,17 @@
                 <p>I designed a message maker that displays a random inspirational message using Javascript and Node</p>
             </details>
         </section>
-        <section class="skills">
+        <section id="skills">
             <h2>Skills:</h2>
-            <i class="html5"></i>
-            <i class="css"></i>
-            <i class="javascript"></i>
-            <i class="git"></i>
-            <i class="chrome"></i>
-            <i class="node"></i>
-            <i class="github"></i>
+            <div class="skills-container">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-chrome"></i>
+                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
         </section>
     </main>
     <footer></footer>

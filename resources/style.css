@@ -4,6 +4,11 @@ body{
     height: 100%;
     max-width: 900px;
     margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
@@ -16,11 +21,21 @@ header{
 
 nav{
     display: flex;
+    padding: 1rem 0;
 }
 
 nav li{
     display: inline-flex;
     padding: 0 5px;
+}
+
+a{
+    color: black;
+
+}
+
+p{
+    font-size: 1.125rem;
 }
 
 .about-me-container{
@@ -32,7 +47,7 @@ nav li{
 }
 
 .about-me-container img{
-    width: 18.5rem;
+    width: 17rem;
 }
 
 .project-title h3 {
@@ -41,4 +56,14 @@ nav li{
 
   details{
     cursor: pointer;
+  }
+
+  .fa-brands{
+    font-size: 2rem;
+  }
+
+  .skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
