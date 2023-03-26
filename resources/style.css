@@ -58,7 +58,7 @@ p{
     cursor: pointer;
   }
 
-  .fa-brands{
+  .fa-brands, .fa-solid{
     font-size: 2rem;
   }
 
@@ -66,4 +66,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .contact-container a{
+    margin: 0 .5rem;
   }
