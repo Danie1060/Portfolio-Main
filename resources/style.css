@@ -40,14 +40,17 @@ p{
 
 .about-me-container{
     display: flex;
+    justify-content: space-between;
 }
 
 .about-me-text{
     margin-right: 1rem;
+    width: 40%;
 }
 
 .about-me-container img{
-    width: 17rem;
+    width: 40%;
+    height: auto;
 }
 
 .project-title h3 {
@@ -78,6 +81,7 @@ p{
     position: relative;
     bottom: 0;  
     width: 100%;
+    max-width: 900px;
     height: 2rem;
     justify-content: center;
     align-content: center;
@@ -98,4 +102,22 @@ p{
 
   footer p{
     font-size: .75rem;
+  }
+
+  @media only screen and (max-width: 916px) {
+    body{
+       margin: 0 2.5%; 
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .about-me-container{
+        flex-direction: column;
+    }
+    .about-me-text{
+        width: 100%;
+    }
+    .about-me-container img{
+        width: auto;
+    }
   }
