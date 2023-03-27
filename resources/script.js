@@ -12,3 +12,5 @@ let positive = () => {
     console.log(`Today's Verse: ${good.verse[randomNum(good.verse.length)]}`);
 }
 positive();
+
+document.getElementById("inspiration").innerHTML = positive;
