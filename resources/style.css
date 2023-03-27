@@ -61,6 +61,11 @@ p{
     cursor: pointer;
   }
 
+  details img{
+    width: 50%;
+    height: auto;
+  }
+
   .fa-brands, .fa-solid{
     font-size: 2rem;
   }
